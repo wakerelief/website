@@ -1,0 +1,284 @@
+@import './open-color.scss';
+
+
+// @media (min-width: 800px) {
+//   .container {
+//     padding: 0 2rem;
+//   }
+// }
+.main {
+  min-height: 100vh;
+  // max-width: 1400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  color: $oc-gray-6;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+
+.hero_bg {
+  background-image: url('../public//wr_hero.png');
+  background-size: cover;
+  width: 100%;
+  border-radius: 5px;
+  color: #fff;
+  min-height: 40%;
+
+  div {
+    padding: 1rem 3rem;
+    &:last-child{
+      margin-bottom: 2rem;
+    }
+  }
+
+  h1 {
+    padding: 0rem 3rem;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .hero_subheader {
+    max-width: 50%;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .hero_bg {
+    border-radius: 0;
+
+    // background-size;
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+}
+
+
+a.hero_btn {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: center;
+  transition: all 0.2s;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+a.hero_btn:hover {
+  color: #FFFFFF;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.hero_bg.h1 {
+  font-size: 2rem;
+}
+
+.infobox {
+  margin: 1rem 0;
+  width: inherit;
+  border: 1px solid gray;
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FFFFFF;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.infobox_hours,
+.phone_number, 
+.find_us
+ {
+  padding: 2rem;
+
+}
+
+.infobox_hours p {
+  margin: 1rem 0.5rem;
+}
+
+.infobox_map iframe {
+  border: 0;
+}
+
+.infobox_map_meta {
+  text-align: center;
+  flex-grow: 1;
+
+  a {
+    color: $oc-blue-7;
+    cursor: pointer;
+  }
+}
+
+.open_hours {
+  display: flex;
+  align-items: center;
+  color: gray;
+  justify-content: space-between;
+
+  div {
+    margin: 0.5rem;
+    white-space: nowrap;
+  }
+}
+
+.hours_line_spacer {
+  margin-top: 1rem;
+  border-top: 2px dotted lightgray;
+  height: 1px;
+  width: 75%;
+}
+
+.phone_number {
+  text-align: center;
+
+  span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.about_section {
+  display: flex;
+  align-items: center;
+  margin: 3rem;
+  justify-content: space-around;
+
+  div {
+    flex-basis: 50%;
+    padding: 0 2rem;
+  }
+}
+
+.carousel {
+  display: flex;
+  text-align: center;
+
+  a:hover {
+    cursor: pointer;
+  }
+}
+
+.carousel_item {
+  padding: 1rem;
+}
+
+.section_learn_more {
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+
+  .infobox_hours,
+  .infobox_map .about_section.div {
+    flex-basis: 100%;
+  }
+}
+
+.active_section {
+  text-decoration: underline;
+}
+
+.inactive_section {
+  opacity: 50%;
+}
+
+//rules expire at 820px (tablet) vp
+@media (max-width: 821px) {
+  .main {
+
+    max-width: 1400px;
+  }
+
+  .hero_bg {
+
+    h1,
+    div {
+      padding: 1rem;
+    }
+  }
+
+  .infobox {
+    margin: 0;
+    border: 0;
+  }
+
+  .phone_number span {
+    display: block;
+  }
+
+  .about_section {
+    display: block;
+  }
+
+  .section_learn_more {
+
+    h1,
+    p {
+      margin: 1rem;
+    }
+  }
+
+  .infobox_map_meta {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .about_section {
+    div {
+      padding: 0px;
+    }
+  }
+}
+
+
+@media (min-width: 821px) {
+  .main {
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}

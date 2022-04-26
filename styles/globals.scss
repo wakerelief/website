@@ -1,0 +1,19 @@
+@import './open-color.scss';
+@import './embla.scss';
+
+html,
+body {
+  // padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: $oc-gray-0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  // box-sizing: border-box;
+}
