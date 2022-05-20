@@ -51,6 +51,7 @@ const EmblaCarousel = ({ slides }: { slides: any }) => {
                   className="embla__slide__img"
                   src={mediaByIndex(index).src}
                   alt="Wake Relief Help"
+                  layout='fill'
                 />
               </div>
               <div className={'slide-content'}>

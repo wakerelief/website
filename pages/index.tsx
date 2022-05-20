@@ -36,15 +36,15 @@ const Home: NextPage = () => {
         <div className={styles.hero_bg}>
           <h1>Providing food for <br /> Wake County Residents in Need </h1>
           <div className={styles.hero_subheader}>
-            Raleigh&apos;s trusted all-volunteer emergency food panrty since 1975. Dedicated to helping Wake County residents in need of nutritional meals.
+            Raleigh&apos;s trusted all-volunteer emergency food pantry since 1975. Dedicated to helping Wake County residents in need of nutritional meals.
           </div>
           {/* !TODO!: setup link*/}
           <div>
-            <a className={styles.hero_btn}>
+            <a className={styles.hero_btn} href="#learn-more">
               See how you can help
             </a>
           </div>
-
+         
         </div>
 
         <div className={styles.infobox}>
@@ -118,8 +118,8 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className={styles.section_learn_more}>
-          <h1>Want to Learn More?</h1>
+        <div id="learn-more" className={styles.section_learn_more}>
+          <h1 >Want to Learn More?</h1>
           <p>Explore the sections below to see how we help our community</p>
           <EmblaCarousel slides={slides} />
 
