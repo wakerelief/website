@@ -5,8 +5,7 @@ const nextConfig = {
   images: {
     loader: 'akamai',
     path: '',
-  },
-  optimizeFonts: false
+  }
 }
 
 module.exports = nextConfig
