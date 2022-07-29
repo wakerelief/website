@@ -1,5 +1,9 @@
+$font-family-sans-serif: 'Source Sans Pro', sans-serif;
+
+
 @import './open-color.scss';
 @import './embla.scss';
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
 
 html,
 body {
@@ -7,6 +11,10 @@ body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
   background-color: $oc-gray-0;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
 }
 
 a {
