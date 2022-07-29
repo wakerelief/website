@@ -6,6 +6,7 @@ const nextConfig = {
     loader: 'akamai',
     path: '',
   },
+  optimizeFonts: false
 }
 
 module.exports = nextConfig
