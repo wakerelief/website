@@ -22,17 +22,6 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className='container'>
-        <div className="alert alert-warning d-flex align-items-center my-5" role="alert">
-          <div className='d-flex align-items-center'>
-          <FaInfoCircle />
-          </div>
-          <div className='px-3'>
-            Please Note: Wake Relief will be closed from <b>8/1/2022 - 8-3/2022</b> for maintenance. Please send us an email at <a className='text-decoration-underline'href="mailto:admin@wakerelief.org">admin@wakerelief.org</a> with any questions or concerns. Thank you!
-          </div>
-        </div>
-      </div>
-
       {/* !TODO!: get correct image with resolution */}
       <div className={styles.header}>
         <Image
