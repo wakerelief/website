@@ -8,7 +8,7 @@ import styles from '../styles/Home.module.scss'
 import { FaInfoCircle } from "react-icons/fa";
 
 
-const SLIDE_COUNT = 3;
+const SLIDE_COUNT = 4;
 const slides = Array.from(Array(SLIDE_COUNT).keys());
 
 

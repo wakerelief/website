@@ -14,6 +14,9 @@ const carouselContent = [
   },
   {
     header: 'How You Can Help', content: 'How you can help is to volunteer, organize a food drive, or make a donation. Contact us by leaving a message for Wake Relief on the phone number listed. Want to organize a food drive? Here is a list of the foods we provide: canned tuna and chicken, canned lunch meat, canned peas, green beans, corn, mixed vegetables, soup, beans, peanut butter, fruit, oil, boxed milk, rice, grits, pasta, canned tomato products, as well as, toilet paper, soap, and detergent pods. (Please no glass containers) Our clients also enjoy receiving personal hygiene products, and various condiments when we have them available through donations.'
+  },
+  {
+    header: 'Make a Donation', content: 'Make checks payable to Christ Episcopal Church with Wake Relief in the memo line and mail to: Christ Episcopal, Church 120 East Edenton Street Raleigh, NC 27601. For information on gifting stock or mutual funds, contact "finance@ccral.org". You can also donate online by clicking the button below.', button: <form name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type = "hidden" name = "LinkId" value ="9adb9bbd-730f-4c4f-9837-1055cc6ba263" /> <input type = "image" src ="//content.authorize.net/images/donate-gold.gif" /> </form> 
   }
 ]
 
@@ -57,6 +60,7 @@ const EmblaCarousel = ({ slides }: { slides: any }) => {
               <div className={'slide-content'}>
                 <h2>{carouselContent[index].header}</h2>
                 <p>{carouselContent[index].content}</p>
+                {carouselContent[index].button}
               </div>
             </div>
           ))}
