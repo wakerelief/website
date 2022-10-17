@@ -6,9 +6,10 @@ import wakeReliefLogo from '../public/wr-logo-sized.png'
 import wrAbout from '../public/wr_about.png'
 import styles from '../styles/Home.module.scss'
 import { FaInfoCircle } from "react-icons/fa";
+import DonateSection from '../components/DonateSection'
 
 
-const SLIDE_COUNT = 4;
+const SLIDE_COUNT = 3;
 const slides = Array.from(Array(SLIDE_COUNT).keys());
 
 
@@ -127,6 +128,8 @@ const Home: NextPage = () => {
           <p>Explore the sections below to see how we help our community</p>
           <EmblaCarousel slides={slides} />
         </div>
+
+        <DonateSection/>
 
 
       </main>
