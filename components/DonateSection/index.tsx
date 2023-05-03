@@ -15,17 +15,18 @@ const DonateSection = () => {
                     </div>
                     <div className={`${styles.donateDescription} col-md-6 text-center p-4`}>
                         <BiDonateHeart />
-                        <h2 className="py-2">Help Make a Difference</h2>
+                        <h3 className="pt-2">Help Make a Difference</h3>
                         <div className="pb-3 px-3 fs-5">
-                            <p> Make checks payable to Christ Episcopal Church with Wake Relief in the memo line and mail to:</p>
-                            <p className="fs-6">
+                            <p className="mb-1"> Make checks payable to Christ Episcopal Church with Wake Relief in the memo line and mail to:</p>
+                            <p className="fs-6 mb-1">
                                 Christ Episcopal Church <br />
                                 120 East Edenton Street <br />
                                 Raleigh, NC 27601
                             </p>
-                            <p>You can also donate online by clicking the button below:</p>
+                            <p className="mb-1">You can also donate to Wake Relief online by clicking the button below:</p>
                             <form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type="hidden" name="LinkId" value="9adb9bbd-730f-4c4f-9837-1055cc6ba263" /> <input type="image" src="//content.authorize.net/images/donate-gold.gif" /> </form>
-                            <p className="pt-2" style={{fontSize: 14}}>For information on gifting stock or mutual funds, contact finance@ccral.org</p>
+                            <p className="text-left d-inline-block mb-1">Interested in Memorial Giving? </p><a href="https://christchurchraleigh.wufoo.com/forms/r1uol5jg09gnbmh/"> visit this page!</a>
+                            <p className="pt-2 mb-0" style={{fontSize: 14}}>For information on gifting stock or mutual funds, contact finance@ccral.org</p>
                         </div>
                     </div>
                 </div>
