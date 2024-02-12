@@ -36,7 +36,7 @@ const Home: NextPage = () => {
         <div className={styles.hero_bg}>
           <h1>Providing food for <br /> Wake County Residents in Need </h1>
           <div className={styles.hero_subheader}>
-            Raleigh&apos;s trusted all-volunteer emergency food panrty since 1975. Dedicated to helping Wake County residents in need of nutritional meals.
+            Raleigh&apos;s trusted all-volunteer emergency food pantry since 1975. Dedicated to helping Wake County residents in need of nutritional meals.
           </div>
           {/* !TODO!: setup link*/}
           <div>
