@@ -23,9 +23,8 @@ const DonateSection = () => {
                                 120 East Edenton Street <br />
                                 Raleigh, NC 27601
                             </p>
-                            <p className="mb-1">You can also donate to Wake Relief online by clicking the button below:</p>
-                            <form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type="hidden" name="LinkId" value="9adb9bbd-730f-4c4f-9837-1055cc6ba263" /> <input type="image" src="//content.authorize.net/images/donate-gold.gif" /> </form>
-                            <p className="text-left d-inline-block mb-1">Interested in Memorial Giving? </p><a href="https://christchurchraleigh.wufoo.com/forms/r1uol5jg09gnbmh/"> visit this page!</a>
+                            {/* <p className="mb-1">You can also donate to Wake Relief online by clicking the button below:</p> */}
+                            <p className="text-left d-inline-block mb-1">Interested in Memorial Giving? </p><a href="https://christchurchraleigh.wufoo.com/forms/wake-relief-donations"> visit this page!</a>
                             <p className="pt-2 mb-0" style={{fontSize: 14}}>For information on gifting stock or mutual funds, contact finance@ccral.org</p>
                         </div>
                     </div>

@@ -5,6 +5,7 @@ import EmblaCarousel from '../components/EmblaCarousel'
 import wakeReliefLogo from '../public/wr-logo-sized.png'
 import wrAbout from '../public/wr_about.png'
 import styles from '../styles/Home.module.scss'
+import DonateSection from '../components/DonateSection'
 
 const SLIDE_COUNT = 3;
 const slides = Array.from(Array(SLIDE_COUNT).keys());
@@ -40,7 +41,7 @@ const Home: NextPage = () => {
           </div>
           {/* !TODO!: setup link*/}
           <div>
-            <a className={styles.hero_btn}>
+            <a className={styles.hero_btn} href="#learn-more">
               See how you can help
             </a>
           </div>
@@ -74,6 +75,13 @@ const Home: NextPage = () => {
               <p>Clients may come once every 60 days</p>
               <p>* Wake Relief will be OPEN on Federal Holidays.</p>
               <p>* Wake Relief follows Wake County Schools inclement weather policy. </p>
+              <p>Wake Relief Closed Days for 2024:</p>
+              <ul>
+                <li>Monday, May 27th</li>
+                <li>Monday, Sept 2nd</li>
+                <li>Tuesday, December 24th</li>
+                <li>Wednesday, December 25th</li>
+              </ul>
             </div>
             {/* <div className={styles.phone_number}>
               <span>
@@ -118,12 +126,14 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className={styles.section_learn_more}>
+        <div id="learn-more" className={styles.section_learn_more}>
           <h1>Want to Learn More?</h1>
           <p>Explore the sections below to see how we help our community</p>
           <EmblaCarousel slides={slides} />
 
         </div>
+
+        <DonateSection />
 
 
       </main>
