@@ -24,7 +24,7 @@ const DonateSection = () => {
                                 Raleigh, NC 27601
                             </p>
                             {/* <p className="mb-1">You can also donate to Wake Relief online by clicking the button below:</p> */}
-                            <p className="text-left d-inline-block mb-1">Interested in Memorial Giving? </p><a href="https://christchurchraleigh.wufoo.com/forms/wake-relief-donations"> visit this page!</a>
+                            <p className="text-left d-inline-block mb-1">For online donations, including memorials</p><a href="https://christchurchraleigh.wufoo.com/forms/wake-relief-donations"> visit this page!</a>
                             <p className="pt-2 mb-0" style={{fontSize: 14}}>For information on gifting stock or mutual funds, contact finance@ccral.org</p>
                         </div>
                     </div>
