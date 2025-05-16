@@ -75,12 +75,11 @@ const Home: NextPage = () => {
               <p>Clients may come once every 60 days</p>
               <p>* Wake Relief will be OPEN on Federal Holidays.</p>
               <p>* Wake Relief follows Wake County Schools inclement weather policy. </p>
-              <p>Wake Relief Closed Days for 2024:</p>
+              <p>Wake Relief Closed Days for 2025:</p>
               <ul>
-                <li>Monday, May 27th</li>
-                <li>Monday, Sept 2nd</li>
-                <li>Tuesday, December 24th</li>
-                <li>Wednesday, December 25th</li>
+                <li>Memorial Day - Monday, May 26th</li>
+                <li>Labor Day - Monday, Sept 1st</li>
+                <li>Christmas Eve - Wednesday, December 24th</li>
               </ul>
             </div>
             {/* <div className={styles.phone_number}>
