@@ -22,12 +22,8 @@ const Home: NextPage = () => {
       </Head>
 
       <div className='container'>
-        <div className="alert alert-warning d-flex align-items-center my-5" role="alert">
-          <div className='d-flex align-items-center'>
-          </div>
-          <div className='px-3'>
+        <div className="alert alert-danger d-flex justify-content-center align-items-center my-5" role="alert">
             Relocating - Temporarily closed
-          </div>
         </div>
       </div>
       
