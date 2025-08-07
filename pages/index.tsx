@@ -24,7 +24,6 @@ const Home: NextPage = () => {
       <div className='container'>
         <div className="alert alert-warning d-flex align-items-center my-5" role="alert">
           <div className='d-flex align-items-center'>
-          <FaInfoCircle />
           </div>
           <div className='px-3'>
             Relocating - Temporarily closed
